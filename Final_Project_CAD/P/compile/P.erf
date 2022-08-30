@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\Final_Project_CAD\P\src\TestBench\auto_car_TB.vhd" 
+MESSAGE "Compile Entity "auto_car_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "auto_car_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_auto_car"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

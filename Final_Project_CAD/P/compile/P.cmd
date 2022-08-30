@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Final_Project_CAD\library.cfg"  -j "c:\My_Designs\Final_Project_CAD\P\projlib.cfg"  -d "c:\My_Designs\Final_Project_CAD\P\compile"   -work P  -O3 -e 100 -2002 "c:\My_Designs\Final_Project_CAD\P\src\TestBench\auto_car_TB.vhd" 

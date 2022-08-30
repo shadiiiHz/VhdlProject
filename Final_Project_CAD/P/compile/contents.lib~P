@@ -1,0 +1,6 @@
+45
+~E 1 "./src/TestBench/auto_car_TB.vhd" 7 auto_car_tb
+~A 1 "./src/TestBench/auto_car_TB.vhd" 10 tb_architecture
+~E 1 "./src/Auto_Car.vhd" 28 auto_car
+~A 1 "./src/Auto_Car.vhd" 52 auto_car
+~C 1 "./src/TestBench/auto_car_TB.vhd" 95 testbench_for_auto_car

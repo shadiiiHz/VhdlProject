@@ -1,0 +1,63 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+SetActiveLib -work
+comp -include "$dsn\src\Auto_Car.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\Final_Project_CAD\P\src\Auto_Car.vhd
+# Compile Entity "Auto_Car"
+# Compile Architecture "Auto_Car" of Entity "Auto_Car"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\auto_car_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\Final_Project_CAD\P\src\TestBench\auto_car_TB.vhd
+# Compile Entity "auto_car_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "auto_car_tb"
+# Compile Configuration "TESTBENCH_FOR_auto_car"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_auto_car 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6492 kB (elbread=1023 elab2=5119 kernel=349 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Final_Project_CAD\P\src\wave.asdb
+#  09:36 ﬁ.Ÿ, ”Â†‘‰»Â, 8 ‘Â—ÌÊ— 1401
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_auto_car
+wave 
+wave -noreg Clock
+wave -noreg Start
+wave -noreg Reset
+wave -noreg Speed
+wave -noreg Path_Station_and_Time
+wave -noreg Emergency
+wave -noreg Stop
+wave -noreg Chance
+wave -noreg Total_Time
+wave -noreg Station_Halt
+wave -noreg NextStation_Left
+wave -noreg Station_Number
+wave -noreg Open_Close
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\auto_car_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_auto_car 
+# 13 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+open -vhdl {C:\My_Designs\Final_Project\Project\src\Automatic_Machine.vhd}
+#  Simulation has been stopped

@@ -1,0 +1,45 @@
+timestamp=1661839574020
+
+[auto_car]
+A/auto_car=A/Auto_Car 21|./src/Auto_Car.vhd|52|1*41368
+B/auto_car=3*22348
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/auto_car=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*1176
+I/auto_car=I/Auto_Car 0*29495
+M=11|0|v80|1611081498848|./src/Auto_Car.vhd|0*510*0xd5b11757ff4486d588a12a1b0cf2eeb24565206b|0*1099*0xab32bc1a2daf049573e14469f634e0e6
+M/auto_car=M/Auto_Car 21|0|v80|1661839573632|./src/Auto_Car.vhd|0*1340*0x14af15306f59f0df8d0063f19069a4774315ffe6|0*29406*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Auto_Car.vhd|28
+
+[auto_car_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/auto_car_TB.vhd|10|1*53301
+B/tb_architecture=3*31206
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*30043
+I/tb_architecture=I/TB_ARCHITECTURE 0*33280
+M=11|0|v80|1611081843160|./src/TestBench/auto_car_TB.vhd|0*29747*0x2f1552f2379082cb1f47a46e7480bd443bd092e0|0*29950*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1661839573916|./src/TestBench/auto_car_TB.vhd|0*30210*0xb1e19194a96ff558e993fde1f5f98acb512d9547|0*33168*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/auto_car_TB.vhd|7
+
+[testbench_for_auto_car]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*58693
+I=0*33918
+M=2|0|v80|1661839573919|./src/TestBench/auto_car_TB.vhd|0*33518*0x93419563b620263397773a41fc0f9993d0c3d7a1|0*33800*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/auto_car_TB.vhd|95
+
+[~A]
+ModifyID=45
+Version=73
+
+[~MFT]
+0=16|0P.mgf|33918|0
+1=18|1P.mgf|58693|41368
+3=11|3P.mgf|31206|22348
+
+[~U]
+auto_car=Auto_Car 11|0*0|
+auto_car_tb=11|0*29668|
+testbench_for_auto_car=TESTBENCH_FOR_auto_car 2||
+
